@@ -26,11 +26,17 @@
 # else:
 #     print("Grade: F")
 
-even_count = 0
-n = 101
-for i in range(n):
-    if i%2 == 0:
-        even_count +=1
-        print("even : ", i)
+# even_count = 0
+# n = 101
+# for i in range(n):
+#     if i%2 == 0:
+#         even_count +=1
+#         print("even : ", i)
 
-print(f'Total even numbers from 0 to {n} are {even_count} ')
+# print(f'Total even numbers from 0 to {n} are {even_count} ')
+
+
+# usecase of enumerate function
+# names = ["alice", "bob", "charlie"]
+# for index, name in enumerate(names):
+#     print(f"Index: {index}, Name: {name}")
