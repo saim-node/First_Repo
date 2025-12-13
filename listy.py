@@ -97,3 +97,4 @@ for i in range(101):
         square_list.append(i*i)
     
 print(square_list)
+
