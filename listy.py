@@ -70,7 +70,30 @@ print(a)
 # pop() is a list method.
 
 # It:
-
-# removes an item
-
+# removes an item by index
 # returns the removed item
+
+nums = [10, 20, 30]
+x = nums.pop()
+
+print(x) # 30 if no index given then it gives the last item
+print(nums) # [10,20]
+
+
+# Method	    Removes by	    Returns value?
+# --------------------------------------------
+# pop	        index	            ✅ Yes
+# remove	    value	            ❌ No
+# --------------------------------------------
+
+
+
+
+
+square_list = []
+
+for i in range(101):
+    if i % 2  == 0:
+        square_list.append(i*i)
+    
+print(square_list)
