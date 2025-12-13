@@ -1,5 +1,3 @@
-# ==================== classword ========= 
-
 names = []
 
 print("Welcome")
@@ -12,6 +10,8 @@ if user_input == "y":
         u_input = input("Enter  a new name or type done to exit ")
         if u_input == "done":
             break
+        elif u_input == " ":
+            continue
         elif u_input in names:
             names.remove(u_input)
         else:
