@@ -102,6 +102,9 @@ li =[1,2,3,4,5]
 count=0
 for j in li:
     count+=1
+    
+print(len(li))
+print(count)
 
 for i in range(count):
     print(li[i])
